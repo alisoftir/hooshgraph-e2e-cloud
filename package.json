@@ -1,0 +1,15 @@
+{
+  "name": "hooshgraph-e2e-cloud",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Playwright suite for Hooshgraph cloud create/trial flows (6h cron)",
+  "scripts": {
+    "test": "playwright test",
+    "test:p0": "playwright test --grep @p0",
+    "test:headed": "playwright test --headed",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.49.0"
+  }
+}
